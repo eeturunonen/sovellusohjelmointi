@@ -19,7 +19,3 @@ class Dog():
         """Simulate a dog barking"""
         print(f"{self.name} *wuf* *wuf*")
 
-
-dog1 = Dog("Karri", 2, "Red")
-
-dog1.bark()
