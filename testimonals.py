@@ -5,7 +5,8 @@ from choir import Choir
 from coinflipping import Coin
 
 ### This section is for Dog class test runs ####
-# dog1 = Dog("Karri", 2, "Red")
+
+# dog1 = Dog("Karri", 2, "Red")     # Task 2
 # dog1.bark()
 
 
@@ -14,11 +15,14 @@ from coinflipping import Coin
 ### This section is for Band class test runs ###
 
 
-# band = Band("TESTI", "TESTIMUSA")
+# band = Band("TESTI", "TESTIMUSA")     # Task 4
 
 # band.describe_band()
-# band.is_activce(True)
 # band.is_activce(False)
+# band.is_activce(True)
+
+
+###---------------------- This part is for task 5 ----------------------###
 
 
 # apulanta = Band("Apulanta", "Rock")
@@ -31,6 +35,10 @@ from coinflipping import Coin
 
 # band = Band("TESTI", "TESTIMUSA")
 
+
+###---------------------- This part is for task 6 ----------------------###
+
+
 # print(f"{band.band_name} has won {band.home_awards} home awards")
 # band.home_awards += 2
 # print(f"{band.band_name} has won {band.home_awards} home awards")
@@ -38,14 +46,17 @@ from coinflipping import Coin
 # band.international_awards += 5
 # print(f"{band.band_name} has won {band.international_awards} international awards")
 
+
+###---------------------- This part is for task 7 ----------------------###
+
+
 # band.set_home_awards(4)
 # print(f"{band.band_name} has won {band.home_awards} home awards")
 # band.set_international_awards(10)
 # print(f"{band.band_name} has won {band.international_awards} international awards")
 
 
-
-### This part is for taks 8 ###
+###---------------------- This part is for task 8 ----------------------###
 
 
 # rockBand = RockBand()
@@ -56,8 +67,7 @@ from coinflipping import Coin
 # print(rockBand.rock_concert_movements)
 
 
-
-### This part is for task 9 ###
+###---------------------- This part is for task 9 ----------------------###
 
 
 # choir = Choir("Pahuksen Papat", "Choir")
@@ -66,8 +76,7 @@ from coinflipping import Coin
 # print(f"The choir {choir.band_name} size is {choir.size} members")
 
 
-
-### This part is for task 10 ###
+###---------------------- This part is for task 10 ----------------------###
 
 
 # coin = Coin()
