@@ -5,7 +5,7 @@ class Dog:
         """Initialize name and age attributes."""
         self.name = name
         self.age = age
-        self.color = color
+        self.color = color      # Task 1
 
     def sit(self):
         """Simulate a dog sitting in response to a command."""

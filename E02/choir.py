@@ -1,4 +1,4 @@
-from band import Band
+from E02.band import Band
 
 class Choir(Band):
     def __init__(self, band_name, music_genre):

@@ -1,4 +1,4 @@
-from band import Band
+from E02.band import Band
 
 class RockBand(Band):
     def __init__(self):
