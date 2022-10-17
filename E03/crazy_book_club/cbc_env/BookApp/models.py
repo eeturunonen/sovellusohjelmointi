@@ -11,9 +11,9 @@ class Book(models.Model):
     date_modified = models.DateTimeField(auto_now_add=True)         # Timestamp when the book is modified
 
 
-    def __unicode__(self):                                          # Represents the book model
+    def __str__(self):                                          # Represents the book model
         """Return a string reprenstation of the model."""
-        return self.text
+        return self.name
 
 class Review(models.Model):
 
@@ -24,7 +24,7 @@ class Review(models.Model):
     date_modified = models.DateTimeField(auto_now_add=True)         # Timestamp when the book is modified
     book = models.ForeignKey(Book, on_delete=models.CASCADE)        # Deletes the object and all the stored data of it
 
-    def __unicode__(self):                                          # Represents the review model
+    def __str__(self):                                          # Represents the review model
         """Return a string representation of the model."""
-        return f"{self.text[:50]}..."
+        return f"{self.my_review[:50]}..."
 
